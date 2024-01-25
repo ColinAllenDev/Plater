@@ -1,0 +1,13 @@
+# Default configuration for Plater
+Width = 76.2 # mm
+Height = 50.8 # mm
+
+FontSizeTitle = 6
+FontSizeTagline = 4
+FontSizeMetadata = 4
+FontSizeInfo = 3
+
+FontSpacingMajor = 4
+FontSpacingMedium = 2
+FontSpacingMinor = 2
+
