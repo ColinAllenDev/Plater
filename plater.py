@@ -6,6 +6,7 @@ class Plater:
     def __init__(self):
         with open('config.toml', 'rb') as f:
             self.config = tomllib.load(f)
+            
 
         self.width = self.config['Width']
         self.height = self.config['Height']

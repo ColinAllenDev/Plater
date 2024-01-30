@@ -122,7 +122,7 @@ class Application:
         plate_path = plater.generate_svg(input_data)
 
         # Display success text
-        message_success = tk.Label(self.tab_editor, text=f'Successfully saved {plate_path}')
+        message_success = tk.Label(self.tab_editor, text=f'Successfully saved {plate_path}', anchor='w')
         message_success.grid(row=7, column=1, pady=5, sticky=tk.E)
 
 
